@@ -1,0 +1,173 @@
+#navigation{
+	display:inline-block;
+	position: fixed;
+	bottom:0;
+	left: 0;
+	margin: 10px;
+	
+}
+
+#postCard{
+	margin: 5px;
+	border-radius: 2px;
+	
+}
+
+#gallery{
+	margin: 5px;
+	border-radius: 2px;
+	
+}
+
+#addGallery{
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	margin: 10px;
+}
+
+#postCardD{
+	position: fixed;
+	top: 10%;
+	height: 75%;
+	width: 100%;
+	background-color: #03030309;
+}
+
+
+#galleryD{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	background-color: white;
+	display: none;
+}
+
+#Body{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	height: 90%;
+	background-image: url('http://www.bhilaimaitricollege.com/admin/images/default.png');
+	
+}
+
+#To{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	font-size: x-large;
+	background-color: #030303AA;
+}
+
+#From{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	margin: 10px;
+	font-size: x-large;
+	background-color: #030303AA;
+	
+}
+
+#galleryScreen{
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 90%;
+	overflow: auto;
+	
+}
+
+.cControl{
+	border: solid 10px grey;
+	margin: 0px;
+}
+
+#cardBody{
+	position: absolute;
+	left: 13vw;
+	top: 15vh;
+}
+
+#cardTo{
+	position: absolute;
+	left: 5vw;
+	top: 15vh;
+}
+
+#cardFrom{
+	position: absolute;
+	right: 6vw;
+	bottom: 13vh;
+}
+
+#cardBg{
+	position: absolute;
+	left: 13vw;
+	top: 19vh;
+}
+
+#cardControl{
+	display: none;
+}
+
+.new_post{
+	position: relative;
+	height: 40%;
+	width: 30%;
+	background-color: #03030309;
+	display: inline-block;
+}
+
+.new_t{
+	position: absolute;
+	top: 0;
+	left: 5px;
+	margin: 10px;
+	font-size: x-large;
+	background-color: #030303AA;
+}
+/*
+.new_b{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50%;
+	height: 90%;
+	background-image: url('http://www.bhilaimaitricollege.com/admin/images/default.png');
+}*/
+
+.new_f{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+	margin: 10px;
+	font-size: x-large;
+	background-color: #030303AA;
+}
+
+.bb_cControl{
+	position: relative;
+	border: solid 10px grey;
+	
+}
+#bb_control{
+	display: inline-block;
+	position: fixed;
+	right: 0;
+	left: 10vw;
+	margin: auto;
+	bottom: 10vh;
+	display: none;
+	z-index: 2;
+}
